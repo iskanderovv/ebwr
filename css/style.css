@@ -1,0 +1,606 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: "Jost", sans-serif;
+    font-weight: 400;
+}
+
+/* container */
+.container {
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+/* nav */
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.nav__list {
+    display: flex;
+    gap: 0px 40px;
+}
+
+.nav__item a {
+    text-decoration: none;
+    font-size: 13px;
+    color: #333333;
+}
+
+.nav__form {
+    border: 2px solid #023047;
+    width: 288px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-form__input {
+    flex: 1;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 15px 17px;
+    font-size: 13px;
+}
+
+.nav-form__input::placeholder,
+.nav-form__all {
+    color: #999999;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.nav-form__btn {
+    background: #023047;
+    padding: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav__icons {
+    display: flex;
+    gap: 0px 25px;
+    cursor: pointer;
+}
+
+/* hero */
+.hero {
+    background: url("../imgs/BG.png") center center / cover;
+}
+
+.hero__content {
+    padding-top: 150px;
+    max-width: 470px;
+    color: #333333;
+}
+
+.hero__new-arrival {
+    font-size: 14px;
+    color: #023047;
+}
+
+.hero__title {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.hero__info {
+    font-size: 14px;
+    line-height: 17px;
+    padding: 14px 0px 32px 0px;
+}
+
+.hero__btn {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    padding: 16px 25px;
+    background: #023047;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 122px;
+}
+
+/* collection */
+.collection {
+    margin: 100px 0;
+    display: flex;
+    justify-content: center;
+    gap: 0px 30px;
+}
+
+.collection__man {
+    background: url("../imgs/Summer\ Sale.png") center center / cover;
+    width: 570px;
+    padding: 195px 25px 130px 0px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.collection__bags-watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.collection__bags {
+    background: url("../imgs/yandex.png") center center / cover;
+    max-height: 210px;
+    width: 570px;
+    padding: 60px 0px 46px 38px;
+}
+
+.collection__watch {
+    background: url("../imgs/watch.png") center center / cover;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 22px;
+}
+
+.collection__discount {
+    font-size: 14px;
+    color: #023047;
+}
+
+.collection__title {
+    font-size: 24px;
+    padding: 10px 0;
+}
+
+.collection__btn {
+    border: 1px solid #666666;
+    font-size: 14px;
+    padding: 15px 20px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Best selling products */
+.best-selling {
+    background: #F5F5F5;
+    text-align: center;
+    padding: 87px 0;
+}
+
+.content-title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 52px;
+}
+
+.content-info {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 16px 0;
+}
+
+.best-selling__info {
+    max-width: 542px;
+    margin: 0 auto;
+}
+
+.best-selling__cards {
+    display: flex;
+    justify-content: center;
+    gap: 0px 30px;
+    flex-wrap: wrap;
+    margin-top: 69px;
+}
+
+.best-selling__card {
+    text-align: center;
+    background: white;
+    max-width: 370px;
+}
+
+.best-selling__card:hover {
+    box-shadow: 0px 5px 22px 0px #00000026;
+}
+
+.best-selling-card__title,
+.best-selling-card__price {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    margin: 10px 0;
+}
+
+/* Super discount */
+.super-discount {
+    background: #023047;
+    display: flex;
+    padding: 100px 0;
+    justify-content: center;
+}
+
+.super-discount__content {
+    max-width: 970px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 32px;
+    gap: 0px 24px;
+}
+
+.super-discount__content :first-child {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.super-discount__content :nth-child(2) {
+    font-size: 14px;
+    font-weight: 500;
+    color: #023047;
+    padding: 15px 30px;
+    border: dashed 1px #023047;
+}
+
+.super-discount__content :last-child {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* customer */
+.customer {
+    text-align: center;
+    padding: 87px 0px 130px 0;
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.customer__article>p {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 33px;
+    padding: 29px 0;
+}
+
+/* Save up */
+.save-up {
+    background: url("../imgs/Photo.png") center center / cover;
+    padding: 80px 0px 100px 0;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+}
+
+.save-up h2 {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 47px;
+}
+
+.save-up__50 {
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.save-up p {
+    max-width: 570px;
+    margin: 0px auto;
+    padding: 7px 0 17px 0;
+}
+
+.save-up__btn {
+    padding: 15px 25px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+/* service */
+.service {
+    background: #F3F3F3;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
+.service__cards {
+    display: flex;
+    justify-content: center;
+    gap: 0 30px;
+    flex-wrap: wrap;
+}
+
+.service__card {
+    width: 270px;
+    padding: 22px;
+    text-align: center;
+    border: 1px solid #CCCCCC;
+}
+
+.service__card>i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    color: #666666;
+    width: 45px;
+    height: 45px;
+    padding: 13px 17px;
+    background: #E5E5E5;
+}
+
+.service__card:hover {
+    box-shadow: 0px 0px 54px 0px #00000026;
+    background: white;
+    cursor: pointer;
+}
+
+.service__card:hover>i {
+    background: #023047;
+    color: white;
+}
+
+.service-card__title {
+    padding-top: 8px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.service-card__price {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* blog */
+.blog {
+    text-align: center;
+    margin: 84px auto 125px auto;
+}
+
+.blog__content :last-child {
+    max-width: 570px;
+    margin: 0 auto;
+}
+
+.blog__wrapper {
+    margin-top: 46px;
+    display: flex;
+    gap: 0px 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.blog__sale {
+    background: #F0F0F0;
+    max-width: 670px;
+    text-align: left;
+}
+
+.blog-small {
+    font-size: 10px;
+    font-weight: 500;
+    color: #333333;
+    padding: 0px 19px;
+}
+
+.blog-sale__title {
+    font-size: 24px;
+    font-weight: 500;
+    color: #333333;
+    text-decoration: underline;
+    padding: 8px 19px;
+    max-width: 530px;
+}
+
+.blog-sale__info {
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0px 19px;
+}
+
+.blog-sale__btn {
+    background: #023047;
+    padding: 15px 30px;
+    color: white;
+    margin: 15px 19px 0 19px;
+}
+
+.blog__clothing-girl {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+.blog__clothing {
+    text-align: left;
+    max-width: 470px;
+    background: #F0F0F0;
+    padding-bottom: 8px;
+}
+
+.blog-clothing__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-clothing-content__title {
+    max-width: 265px;
+    padding: 8px 19px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+/* sign up */
+.sign-up {
+    background: url("../imgs/jinsi.png") center center / cover;
+}
+
+.sign-up__form {
+    max-width: 570px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sign-up__form__input {
+    font-size: 14px;
+    padding: 16px;
+    width: 70%;
+    outline: none;
+}
+
+.sign-up__form__input::placeholder {
+    color: #999999;
+}
+
+.sign-up__form__btn {
+    font-size: 14px;
+    font-weight: 600;
+    padding: 15px 17px;
+    background: #023047;
+    width: 30%;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* social media */
+.social-media {
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 0;
+    background: #F3F3F3;
+}
+
+.social-media__info {
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 42px;
+}
+
+.social-media__imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media__img {
+    width: 360px;
+    height: 360px;
+}
+
+.bg-1 {
+    background: url("../imgs/tog\'.png") center center / cover;
+}
+
+.bg-2 {
+    background: url("../imgs/negr.png") center center / cover;
+}
+
+.bg-3 {
+    background: url("../imgs/tizza.png") center center / cover;
+}
+
+.bg-4 {
+    background: url("../imgs/kastim.png") center center / cover;
+}
+
+.plus>.bi-plus {
+    display: none;
+}
+
+
+.bg-1:hover .plus,
+.bg-2:hover .plus,
+.bg-3:hover .plus,
+.bg-4:hover .plus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    background: linear-gradient(#000000BF, #000000BF)
+}
+
+.bg-1:hover .plus>.bi-plus,
+.bg-2:hover .plus>.bi-plus,
+.bg-3:hover .plus>.bi-plus,
+.bg-4:hover .plus>.bi-plus {
+    font-size: 60px;
+    font-weight: 900;
+    color: white;
+    display: block;
+}
+
+/* footer */
+.footer {
+    padding: 94px 0 100px 0;
+}
+
+.footer__heading {
+    max-width: 270px;
+}
+
+.footer__heading :nth-child(2) {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 14px 0px 10px 0;
+}
+
+.footer-heading__icons i {
+    padding: 0px 15px;
+    color: gray;
+}
+
+.footer__heading :last-child {
+    font-size: 14px;
+    text-decoration: underline;
+    color: #666666;
+    margin-top: 14px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 52px;
+}
+
+.footer__lists h3 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+
+.footer__list li {
+    margin: 5px 0;
+}
+
+.footer__list li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+}
+
+.footer__gallery {
+    max-width: 275px;
+}
+
+.footer__copyright {
+    padding: 30px 0;
+    background: #F3F3F3;
+
+}
+
+.footer-copyright__content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__copyright :first-child {
+    font-size: 14px;
+    color: #666666;
+}
+
+.footer__copyright :first-child>span {
+    font-size: 14px;
+    font-weight: 500;
+    color: #333333;
+}
